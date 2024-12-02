@@ -1,0 +1,115 @@
+<xml>
+    <animals>
+        <animal species="Wolf" weight="50" maxQuantity="30" maxDistance="3" maxSatiety="8">
+            <foodList>
+                <food species="Horse" eatProbability="0.10"/>
+                <food species="Deer" eatProbability="0.15"/>
+                <food species="Rabbit" eatProbability="0.60"/>
+                <food species="Mouse" eatProbability="0.80"/>
+                <food species="Goat" eatProbability="0.60"/>
+                <food species="Sheep" eatProbability="0.70"/>
+                <food species="Boar" eatProbability="0.15"/>
+                <food species="Buffalo" eatProbability="0.10"/>
+                <food species="Duck" eatProbability="0.40"/>
+            </foodList>
+        </animal>
+        <animal species="Fox" weight="8" maxQuantity="30" maxDistance="2" maxSatiety="2">
+            <foodList>
+                <food species="Rabbit" eatProbability="0.70"/>
+                <food species="Mouse" eatProbability="0.90"/>
+                <food species="Duck" eatProbability="0.60"/>
+                <food species="Caterpillar" eatProbability="0.40"/>
+            </foodList>
+        </animal>
+        <animal species="Eagle" weight="6" maxQuantity="20" maxDistance="3" maxSatiety="1">
+            <foodList>
+                <food species="Fox" eatProbability="0.10"/>
+                <food species="Rabbit" eatProbability="0.90"/>
+                <food species="Mouse" eatProbability="0.90"/>
+                <food species="Duck" eatProbability="0.80"/>
+            </foodList>
+        </animal>
+        <animal species="Boa" weight="15" maxQuantity="30" maxDistance="1" maxSatiety="3">
+            <foodList>
+                <food species="Fox" eatProbability="0.15"/>
+                <food species="Rabbit" eatProbability="0.20"/>
+                <food species="Mouse" eatProbability="0.40"/>
+                <food species="Duck" eatProbability="0.10"/>
+            </foodList>
+        </animal>
+        <animal species="Bear" weight="500" maxQuantity="5" maxDistance="2" maxSatiety="80">
+            <foodList>
+                <food species="Boa" eatProbability="0.80"/>
+                <food species="Horse" eatProbability="0.40"/>
+                <food species="Deer" eatProbability="0.80"/>
+                <food species="Rabbit" eatProbability="0.80"/>
+                <food species="Mouse" eatProbability="0.90"/>
+                <food species="Goat" eatProbability="0.70"/>
+                <food species="Sheep" eatProbability="0.70"/>
+                <food species="Boar" eatProbability="0.50"/>
+                <food species="Buffalo" eatProbability="0.20"/>
+                <food species="Duck" eatProbability="0.10"/>
+            </foodList>
+        </animal>
+        <animal species="Boar" weight="400" maxQuantity="50" maxDistance="2" maxSatiety="50">
+            <foodList>
+                <food species="Mouse" eatProbability="0.50"/>
+                <food species="Caterpillar" eatProbability="0.90"/>
+                <food species="Plant" eatProbability="1.0"/>
+            </foodList>
+        </animal>
+        <animal species="Buffalo" weight="700" maxQuantity="10" maxDistance="3" maxSatiety="100">
+            <foodList>
+                <food species="Plant" eatProbability="1.0"/>
+            </foodList>
+        </animal>
+        <animal species="Caterpillar" weight="0.01" maxQuantity="1000" maxDistance="0" maxSatiety="0">
+            <foodList>
+                <food species="Plant" eatProbability="1.0"/>
+            </foodList>
+        </animal>
+        <animal species="Deer" weight="300" maxQuantity="20" maxDistance="4" maxSatiety="50">
+            <foodList>
+                <food species="Plant" eatProbability="1.0"/>
+            </foodList>
+        </animal>
+        <animal species="Duck" weight="1" maxQuantity="200" maxDistance="4" maxSatiety="0.15">
+            <foodList>
+                <food species="Caterpillar" eatProbability="0.90"/>
+                <food species="Plant" eatProbability="1.0"/>
+            </foodList>
+        </animal>
+        <animal species="Goat" weight="60" maxQuantity="140" maxDistance="3" maxSatiety="10">
+            <foodList>
+                <food species="Plant" eatProbability="1.0"/>
+            </foodList>
+        </animal>
+        <animal species="Horse" weight="400" maxQuantity="20" maxDistance="4" maxSatiety="60">
+            <foodList>
+                <food species="Plant" eatProbability="1.0"/>
+            </foodList>
+        </animal>
+        <animal species="Mouse" weight="0.05" maxQuantity="500" maxDistance="1" maxSatiety="0.01">
+            <foodList>
+                <food species="Caterpillar" eatProbability="0.90"/>
+                <food species="Plant" eatProbability="1.0"/>
+            </foodList>
+        </animal>
+        <animal species="Rabbit" weight="2" maxQuantity="150" maxDistance="2" maxSatiety="0.45">
+            <foodList>
+                <food species="Plant" eatProbability="1.0"/>
+            </foodList>
+        </animal>
+        <animal species="Sheep" weight="70" maxQuantity="140" maxDistance="3" maxSatiety="15">
+            <foodList>
+                <food species="Plant" eatProbability="1.0"/>
+            </foodList>
+        </animal>
+    </animals>
+
+    <island cellX="100" cellY="20"/>
+
+    <plants>
+        <plant weight="200"/>
+    </plants>
+</xml>
